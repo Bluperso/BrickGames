@@ -1,0 +1,16 @@
+PROJECT_NAME           = "BrickGame v2.0"
+PROJECT_BRIEF          = "Snake and Tetris in MVC"
+OUTPUT_DIRECTORY       = build/docs
+INPUT                  = brick_game gui
+RECURSIVE              = YES
+FILE_PATTERNS          = *.cpp *.h *.c
+EXCLUDE_PATTERNS       = */tests/* */build/*
+EXCLUDE_DIRS           = build
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = NO
+EXTRACT_ALL            = YES
+SOURCE_BROWSER         = YES
+INLINE_SOURCES         = NO
+HAVE_DOT               = NO
